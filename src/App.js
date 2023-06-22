@@ -22,7 +22,7 @@ const folders = [
 ];
 
 const App = () => {
-    const [showClock, setShowClock] = useState(false);
+    const [showClock, setShowClock] = useState(true);
 
     const toggleClock = () => setShowClock(!showClock);
 
